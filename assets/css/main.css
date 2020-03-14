@@ -111,7 +111,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-weight: 300;
+		font-weight: 400;
 		color: #666;
 		line-height: 1.5em;
 	}
@@ -2241,7 +2241,7 @@ input, select, textarea {
 				}
 
 					#main > section.dark a:hover {
-						border-bottom-color: rgba(255, 255, 255, 0);
+						color: #e27689;
 					}
 
 			#main > section.cover {
@@ -2278,7 +2278,8 @@ input, select, textarea {
 			.arrow {
 				text-align: center;
 				opacity: 0.5;
-			  }
+			}
+
 			.bounce {
 			-moz-animation: bounce 2s infinite;
 			-webkit-animation: bounce 2s infinite;
