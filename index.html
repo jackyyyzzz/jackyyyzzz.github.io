@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./node_modules/aos/dist/aos.css" />
 
 </head>
 
@@ -30,7 +30,7 @@
             <nav id="nav">
                 <ul>
                     <li><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
-                    <li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a></li>
+                    <li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Projects</span></a></li>
                     <li><a href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
                     <li><a href="#qualifications" id="contact-link"><span class="icon solid fa-graduation-cap">Qualifications</span></a></li>
                 </ul>
@@ -43,7 +43,7 @@
             <!-- Social Icons -->
             <ul class="icons">
                 <li><a href="https://github.com/jackyyyzzz" class="icon brands fa-github"><span class="label">Github</span></a></li>
-                <li><a href="https://linkedin.com/in/jackyyyzzz" class="icon brands fa-linkedin"><span class="label">Dribbble</span></a></li>
+                <li><a href="https://linkedin.com/in/jackyyyzzz" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
                 <li><a href="mailto:zhao.jackyy@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
             </ul>
 
@@ -59,11 +59,11 @@
 
                 <header>
                     <h2 class="alt">Hi! I'm <strong>Jacky</strong> <br> A Toronto based Frontend Web Developer.</h2>
-                    <p data-aos="zoom-in">Convert web designs and sketches into responsive real website application</p>
+                    <p data-aos="zoom-in">Convert web designs and sketches into responsive real web applications</p>
                 </header>
 
                 <footer>
-                    <h3><a href="#portfolio" class="scrolly">My Portfolio</a></h3>
+                    <button href="#portfolio" class="scrolly"><h3>View Projects</h3></button>
 
                 </footer>
 
@@ -87,14 +87,14 @@
 
                 <div class="row">
                     <div class="col-4 col-12-mobile">
-                        <article class="item" data-aos="flip-down" data-aos-offset="200">
+                        <article class="item" data-aos="flip-down" data-aos-offset="150">
                             <a href="https://contact-keeper-jackyyyzzz.herokuapp.com/" class="image fit thumb"><img src="images/react-contact-keeper-thumb.png" alt="" /></a>
                             <header>
                                 <h3>Full stack MERN contact manager with React hooks, context & JWT authentication.</h3>
                             </header>
                             <a href="https://github.com/jackyyyzzz/React-Contact-Keeper" class="icon brands fa-github">&nbsp;View Code</a>
                         </article>
-                        <article class="item" data-aos="flip-down" data-aos-offset="200">
+                        <article class="item" data-aos="flip-down" data-aos-offset="150">
                             <a href="https://githubfinder12311.netlify.com" class="image fit thumb"><img src="images/github-finder-thumb.png" alt="" /></a>
                             <header>
                                 <h3>React app that finds GitHub accounts through its APIs </h3>
@@ -105,14 +105,14 @@
                     </div>
 
                     <div class="col-4 col-12-mobile">
-                        <article class="item" data-aos="flip-down" data-aos-offset="200">
+                        <article class="item" data-aos="flip-down" data-aos-offset="150">
                             <a href="https://theflowerparadise.netlify.com" class="image fit thumb"><img src="images/the-flower-shop-thumb.jpg" alt="" /></a>
                             <header>
                                 <h3>Site for flower shop</h3>
                             </header>
                             <a href="https://github.com/jackyyyzzz/FlowerParadiseShop" class="icon brands fa-github">&nbsp;View Code</a>
                         </article>
-                        <article class="item" data-aos="flip-down" data-aos-offset="200">
+                        <article class="item" data-aos="flip-down" data-aos-offset="150">
                             <a href="https://jackyyyzzz.github.io/FirstWebProject" class="image fit thumb"><img src="images/first-web-project-thumb.png" alt="" /></a>
                             <header>
                                 <h3>My First Website</h3>
@@ -123,14 +123,14 @@
                     </div>
 
                     <div class="col-4 col-12-mobile">
-                        <article class="item" data-aos="flip-down" data-aos-offset="200">
+                        <article class="item" data-aos="flip-down" data-aos-offset="150">
                             <a href="https://jackyyyzzz.github.io/RockPaperScissorsGame" class="image fit thumb"><img src="images/rock-paper-scissors-game-thumb.png" alt="" /></a>
                             <header>
                                 <h3>Rock Paper Scissors Game</h3>
                             </header>
                             <a href="https://github.com/jackyyyzzz/RockPaperScissorsGame" class="icon brands fa-github">&nbsp;View Code</a>
                         </article>
-                        <article class="item" data-aos="flip-down" data-aos-offset="200">
+                        <article class="item" data-aos="flip-down" data-aos-offset="150">
                             <a href="https://jackyyyzzz.github.io/ToDoListOnWeb" class="image fit thumb"><img src="images/to-do-list-thumb.png" alt="" /></a>
                             <header>
                                 <h3>To Do List App</h3>
@@ -182,11 +182,10 @@
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/jquery.scrolly.min.js"></script>
     <script src="assets/js/jquery.scrollex.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./node_modules/aos/dist/aos.js"></script>
     <script>
         AOS.init({
             easing: 'ease-out-back',
