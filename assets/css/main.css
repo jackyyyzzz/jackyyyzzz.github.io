@@ -170,7 +170,7 @@ body {
     background: black;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 19pt;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 1.75em;
     color: #888;
 }
@@ -191,8 +191,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-weight: 400;
-    color: #666;
+    font-weight: 500;
+    color: white;
     line-height: 1.5em;
 }
 
@@ -294,7 +294,6 @@ blockquote {
     font-style: italic;
 }
 
-p,
 ul,
 ol,
 dl,
@@ -1672,6 +1671,10 @@ ol li {
     padding-left: 0.25em;
 }
 
+.icons {
+    margin-bottom: 0;
+}
+
 
 /* Icons */
 
@@ -1690,7 +1693,7 @@ ul.icons a {
     display: inline-block;
     width: 2em;
     height: 2em;
-    line-height: 2em;
+    line-height: 1em;
     text-align: center;
     border: 0;
 }
@@ -1851,7 +1854,6 @@ button:active,
 }
 
 .item header {
-    background: #fff;
     margin: 0;
     padding: 1em 0 1em 0;
     font-size: 0.8em;
@@ -1887,7 +1889,8 @@ button:active,
 }
 
 .icon>.label {
-    display: none;
+    /* display: none; */
+    font-size: small;
 }
 
 .icon.solid:before {
@@ -2126,7 +2129,7 @@ button:active,
 
 #main>section.one {
     display: flex;
-    height: 100vh;
+    height: 97vh;
     background-color: black;
     background-image: url("../images/banner.jpg"), url(../images/overlay.png);
 }
@@ -2134,22 +2137,15 @@ button:active,
 section.one .container {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
-#main>section.two {
-    background-color: #f5fafa;
-}
-
-#main>section.three {
-    background-color: #ecf1f1;
-}
-
-#main>section.four {
-    background-color: #e8edec;
+#main>section {
+    background-color:black;
 }
 
 .arrow {
+    margin-top: 20px;
     text-align: center;
     opacity: 0.5;
 }
