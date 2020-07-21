@@ -1,211 +1,222 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
 
 <head>
-    <title>Jacky Zhao | Frontend Web Developer</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163543163-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
+  <title>Jacky Zhao | Frontend Web Developer</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163543163-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
 
-        gtag('config', 'UA-163543163-1');
-    </script>
-
+    gtag('config', 'UA-163543163-1');
+  </script>
 </head>
 
 <body data-aos-easing="ease-out-back" data-aos-duration="1000" data-aos-delay="0">
+  <!-- Header -->
+  <div id="header" data-aos="fade-right">
+    <div class="top">
+      <!-- Logo -->
+      <div id="logo">
+        <h1 id="title">Jacky Zhao</h1>
+        <p>Frontend Web Developer</p>
+      </div>
 
-    <!-- Header -->
-    <div id="header" data-aos="fade-right">
+      <!-- Nav -->
+      <nav id="nav">
+        <ul>
+          <li>
+            <a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a>
+          </li>
+          <li>
+            <a href="#portfolio" id="portfolio-link"><span class="icon solid fa-code">Projects</span></a>
+          </li>
+          <li>
+            <a href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a>
+          </li>
+        </ul>
+      </nav>
 
-        <div class="top">
+      <nav id="nav">
+        <ul>
+          <li>
+            <a href="https://github.com/jackyyyzzz/jackyyyzzz.github.io/raw/master/Jacky_Zhao_Resume.pdf" download><span class="icon solid fa-file">My Resume</span></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
 
-            <!-- Logo -->
-            <div id="logo">
-                <h1 id="title">Jacky Zhao</h1>
-                <p>Frontend Web Developer</p>
-            </div>
+  <!-- Main -->
+  <div id="main">
+    <!-- Intro -->
+    <section id="top" class="one dark cover" data-aos="fade-down">
+      <div class="container">
+        <header data-aos="zoom-in">
+          <h2 class="alt">
+            Hi! I'm <strong><a href="https://linkedin.com/in/jackyyyzzz">Jacky</a></strong> <br /> A Toronto based Frontend Web Developer.
+          </h2>
+          <p>Convert web designs and sketches into responsive real web applications</p>
+        </header>
 
-            <!-- Nav -->
-            <nav id="nav">
-                <ul>
-                    <li><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
-                    <li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-code">Projects</span></a></li>
-                    <li><a href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
-                </ul>
-            </nav>
-
-            <nav id="nav">
-                <ul>
-                    <li> <a href="https://github.com/jackyyyzzz/jackyyyzzz.github.io/raw/master/Jacky_Zhao_Resume.pdf" download><span class="icon solid fa-file">My Resume</span></a></li>
-                </ul>
-            </nav>
-
+        <!-- Social Icons -->
+        <div class="icons">
+          <ul class="icons">
+            <li>
+              <a href="https://jackyyyzzz.github.io/Jacky_Zhao_Resume.pdf" download class="icon solid fa-file"><span class="label">Resume</span></a>
+            </li>
+            <li>
+              <a href="https://github.com/jackyyyzzz" class="icon brands fa-github"><span class="label">Github</span></a>
+            </li>
+            <li>
+              <a href="https://linkedin.com/in/jackyyyzzz" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a>
+            </li>
+            <li>
+              <a href="mailto:zhao.jackyy@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a>
+            </li>
+          </ul>
         </div>
 
-        
-    </div>
+        <div data-aos="zoom-in">
+          <button href="#portfolio" class="scrolly icon solid fa-code">&nbsp;View My Projects</button>
+        </div>
 
-    <!-- Main -->
-    <div id="main">
+        <div data-aos="zoom-in">
+          <p>Scroll for more</p>
+          <div class="arrow bounce">
+            <a class="fa fa-arrow-down fa-2x scrolly" href="#portfolio"></a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <!-- Intro -->
-        <section id="top" class="one dark cover" data-aos="fade-down">
-            <div class="container">
+    <!-- Portfolio -->
+    <section id="portfolio" class="two">
+      <div class="container">
+        <header>
+          <h2 data-aos="zoom-in-up" data-aos-offset="100">Latest Projects</h2>
+        </header>
 
-                <header data-aos="zoom-in">
-                    <h2 class="alt">Hi! I'm <strong><a href="https://linkedin.com/in/jackyyyzzz">Jacky</a></strong> <br> A Toronto based Frontend Web Developer.</h2>
-                    <p>Convert web designs and sketches into responsive real web applications</p>
-                </header>
- 
-                <!-- Social Icons -->
-                <div class="icons">
-                    <ul class="icons">
-                        <li><a href="https://jackyyyzzz.github.io/Jacky_Zhao_Resume.pdf" download class="icon solid fa-file" ><span class="label">Resume</span></a></li>
-                        <li><a href="https://github.com/jackyyyzzz" class="icon brands fa-github"><span class="label">Github</span></a></li>
-                        <li><a href="https://linkedin.com/in/jackyyyzzz" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-                        <li><a href="mailto:zhao.jackyy@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-                    </ul>
-                </div>
-                
-                <div data-aos="zoom-in">
-                    <button href="#portfolio" class="scrolly icon solid fa-code">&nbsp;View My Projects</button>
-                </div>
+        <div class="row">
+          <div class="col-4 col-12-mobile">
+            <article class="item work-item" data-aos="flip-down" data-aos-offset="150">
+              <a href="https://contact-keeper-jackyyyzzz.herokuapp.com/" class="image fit thumb"><img src="assets/images/react-contact-keeper-thumb.png" alt="" /></a>
+              <header>
+                <h3>Full stack MERN contact manager with React hooks, context & JWT authentication.</h3>
+                <p>(herokuapp may take some time to start)</p>
+                <a href="https://github.com/jackyyyzzz/React-Contact-Keeper" class="icon solid fa-code"> Code</a> &nbsp;
+                <a href="https://contact-keeper-jackyyyzzz.herokuapp.com/" class="icon solid fa-eye"> Live</a>
+              </header>
+            </article>
+            <article class="item work-item" data-aos="flip-down" data-aos-offset="150">
+              <a href="https://githubfinder12311.netlify.com" class="image fit thumb"><img src="assets/images/github-finder-thumb.png" alt="" /></a>
+              <header>
+                <h3>React app that finds GitHub accounts through its APIs.</h3>
+                <a href="https://github.com/jackyyyzzz/React-Github-Finder" class="icon solid fa-code"> Code</a> &nbsp;
+                <a href="https://githubfinder12311.netlify.com" class="icon solid fa-eye"> Live</a>
+              </header>
+            </article>
+          </div>
 
-                <div data-aos="zoom-in">
-                    <p> Scroll for more</p>
-                    <div class="arrow bounce">
-                        <a class="fa fa-arrow-down fa-2x scrolly" href="#portfolio"></a>
-                    </div>
-                </div>
+          <div class="col-4 col-12-mobile">
+            <article class="item work-item" data-aos="flip-down" data-aos-offset="150">
+              <a href="https://live-chatroom-jackyyyzzz.herokuapp.com/" class="image fit thumb"><img src="assets/images/live-chat-thumb.png" alt="" /></a>
+              <header>
+                <h3>Live Chat App using React using socket.io</h3>
+                <p>(herokuapp may take some time to start)</p>
+                <a href="https://github.com/jackyyyzzz/LiveChatApp" class="icon solid fa-code"> Code</a> &nbsp;
+                <a href="https://live-chatroom-jackyyyzzz.herokuapp.com/" class="icon solid fa-eye"> Live</a>
+              </header>
+            </article>
+            <article class="item work-item" data-aos="flip-down" data-aos-offset="150">
+              <a href="https://theflowerparadise.netlify.com" class="image fit thumb"><img src="assets/images/the-flower-shop-thumb.jpg" alt="" /></a>
+              <header>
+                <h3>Site for flower shop.</h3>
+                <a href="https://github.com/jackyyyzzz/FlowerParadiseShop" class="icon solid fa-code"> Code</a> &nbsp;
+                <a href="https://theflowerparadise.netlify.com" class="icon solid fa-eye"> Live</a>
+              </header>
+            </article>
+            <article class="item work-item" data-aos="flip-down" data-aos-offset="150">
+              <a href="https://youthful-goldstine-774919.netlify.app/" class="image fit thumb"><img src="assets/images/movie-seat-booking-app.png" alt="" /></a>
+              <header>
+                <h3>Vanilla JS project for booking movie seats.</h3>
+                <a href="https://github.com/jackyyyzzz/Movie-Seats-Booking-App" class="icon solid fa-code"> Code</a> &nbsp;
+                <a href="https://youthful-goldstine-774919.netlify.app/" class="icon solid fa-eye"> Live</a>
+              </header>
+            </article>
+          </div>
 
-            </div>
-        </section>
+          <div class="col-4 col-12-mobile">
+            <article class="item work-item" data-aos="flip-down" data-aos-offset="150">
+              <a href="https://jackyyyzzz.github.io/FirstWebProject" class="image fit thumb"><img src="assets/images/first-web-project-thumb.png" alt="" /></a>
+              <header>
+                <h3>My first static website with just HTML and CSS.</h3>
+                <a href="https://github.com/jackyyyzzz/FirstWebProject" class="icon solid fa-code"> Code</a> &nbsp;
+                <a href="https://jackyyyzzz.github.io/FirstWebProject" class="icon solid fa-eye"> Live</a>
+              </header>
+            </article>
+            <article class="item work-item" data-aos="flip-down" data-aos-offset="150">
+              <a href="https://jackyyyzzz.github.io/RockPaperScissorsGame" class="image fit thumb"><img src="assets/images/rock-paper-scissors-game-thumb.png" alt="" /></a>
+              <header>
+                <h3>Rock Paper Scissors Game.</h3>
+                <a href="https://github.com/jackyyyzzz/RockPaperScissorsGame" class="icon solid fa-code"> Code</a> &nbsp;
+                <a href="https://jackyyyzzz.github.io/RockPaperScissorsGame" class="icon solid fa-eye"> Live</a>
+              </header>
+            </article>
+            <article class="item work-item" data-aos="flip-down" data-aos-offset="150">
+              <a href="https://jackyyyzzz.github.io/ToDoListOnWeb" class="image fit thumb"><img src="assets/images/to-do-list-thumb.png" alt="" /></a>
+              <header>
+                <h3>To Do List App.</h3>
+                <a href="https://github.com/jackyyyzzz/ToDoListOnWeb" class="icon solid fa-code"> Code</a> &nbsp;
+                <a href="https://jackyyyzzz.github.io/ToDoListOnWeb" class="icon solid fa-eye"> Live</a>
+              </header>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <!-- Portfolio -->
-        <section id="portfolio" class="two">
-            <div class="container">
+    <!-- About Me -->
+    <section id="about" class="three">
+      <div class="container">
+        <header>
+          <h2 data-aos="zoom-in-up">About Me</h2>
+        </header>
 
-                <header>
-                    <h2 data-aos="zoom-in-up" data-aos-offset="100">Latest Projects</h2>
-                </header>
+        <p data-aos="fade-right">
+          Technically-sophisticated professional with solid experience in ensuring the alignment of web design and user experience requirements for optimizing web pages to achieve maximum efficiency. Demonstrated success in determining the structure and design
+          of web pages using HTML, CSS, and JavaScript, resolving technical errors, and achieving customer satisfaction. Expert in meeting highest standards for web design, user experience, best practices, usability, and speed. Proficient troubleshooter
+          with strong skills in diagnosing and resolving websites issues for improving websites through creative approach to front-end development. Customer-focused with dynamic skills to achieve customers satisfaction and maintain retention by developing
+          designs within specified budget.
+        </p>
+        <p data-aos="fade-left">I believe anything can be overcome through commitment and hardwork. Always up for learning new things.</p>
+      </div>
+    </section>
+  </div>
 
-                <div class="row">
-                    <div class="col-4 col-12-mobile">
-                        <article class="item work-item" data-aos="flip-down" data-aos-offset="150">
-                            <a href="https://contact-keeper-jackyyyzzz.herokuapp.com/" class="image fit thumb"><img src="assets/images/react-contact-keeper-thumb.png" alt="" /></a>
-                            <header>
-                                <h3>Full stack MERN contact manager with React hooks, context & JWT authentication.</h3>
-                                <p>(herokuapp may take some time to start)</p>
-                                <a href="https://github.com/jackyyyzzz/React-Contact-Keeper" class="icon solid fa-code"> Code</a> &nbsp;
-                                <a href="https://contact-keeper-jackyyyzzz.herokuapp.com/" class="icon solid fa-eye"> Live</a>
-                            </header>
-                        </article>
-                        <article class="item work-item" data-aos="flip-down" data-aos-offset="150">
-                            <a href="https://githubfinder12311.netlify.com" class="image fit thumb"><img src="assets/images/github-finder-thumb.png" alt="" /></a>
-                            <header>
-                                <h3>React app that finds GitHub accounts through its APIs. </h3>
-                                <a href="https://github.com/jackyyyzzz/React-Github-Finder" class="icon solid fa-code"> Code</a> &nbsp;
-                                <a href="https://githubfinder12311.netlify.com" class="icon solid fa-eye"> Live</a>
-                            </header>
-                        </article>
-                    </div>
-
-                    <div class="col-4 col-12-mobile">
-                        <article class="item work-item" data-aos="flip-down" data-aos-offset="150">
-                            <a href="https://live-chatroom-jackyyyzzz.herokuapp.com/" class="image fit thumb"><img src="assets/images/live-chat-thumb.png" alt="" /></a>
-                            <header>
-                                <h3>Live Chat App using React using socket.io</h3>
-                                <p>(herokuapp may take some time to start)</p>
-                                <a href="https://github.com/jackyyyzzz/LiveChatApp" class="icon solid fa-code"> Code</a> &nbsp;
-                                <a href="https://live-chatroom-jackyyyzzz.herokuapp.com/" class="icon solid fa-eye"> Live</a>
-                            </header>
-                        </article>
-                        <article class="item work-item" data-aos="flip-down" data-aos-offset="150">
-                            <a href="https://theflowerparadise.netlify.com" class="image fit thumb"><img src="assets/images/the-flower-shop-thumb.jpg" alt="" /></a>
-                            <header>
-                                <h3>Site for flower shop.</h3>
-                                <a href="https://github.com/jackyyyzzz/FlowerParadiseShop" class="icon solid fa-code"> Code</a> &nbsp;
-                                <a href="https://theflowerparadise.netlify.com" class="icon solid fa-eye"> Live</a>
-                            </header>
-                        </article>
-                    </div>
-
-                    <div class="col-4 col-12-mobile">
-                        <article class="item work-item" data-aos="flip-down" data-aos-offset="150">
-                            <a href="https://jackyyyzzz.github.io/FirstWebProject" class="image fit thumb"><img src="assets/images/first-web-project-thumb.png" alt="" /></a>
-                            <header>
-                                <h3>My first static website with just HTML and CSS.</h3>
-                                <a href="https://github.com/jackyyyzzz/FirstWebProject" class="icon solid fa-code"> Code</a> &nbsp;
-                                <a href="https://jackyyyzzz.github.io/FirstWebProject" class="icon solid fa-eye"> Live</a>
-                            </header>
-                        </article>
-                        <article class="item work-item" data-aos="flip-down" data-aos-offset="150">
-                            <a href="https://jackyyyzzz.github.io/RockPaperScissorsGame" class="image fit thumb"><img src="assets/images/rock-paper-scissors-game-thumb.png" alt="" /></a>
-                            <header>
-                                <h3>Rock Paper Scissors Game.</h3>
-                                <a href="https://github.com/jackyyyzzz/RockPaperScissorsGame" class="icon solid fa-code"> Code</a> &nbsp;
-                                <a href="https://jackyyyzzz.github.io/RockPaperScissorsGame" class="icon solid fa-eye"> Live</a>
-                            </header>
-                        </article>
-                        <article class="item work-item" data-aos="flip-down" data-aos-offset="150">
-                            <a href="https://jackyyyzzz.github.io/ToDoListOnWeb" class="image fit thumb"><img src="assets/images/to-do-list-thumb.png" alt="" /></a>
-                            <header>
-                                <h3>To Do List App.</h3>
-                                <a href="https://github.com/jackyyyzzz/ToDoListOnWeb" class="icon solid fa-code"> Code</a> &nbsp;
-                                <a href="https://jackyyyzzz.github.io/ToDoListOnWeb" class="icon solid fa-eye"> Live</a>
-                            </header>
-                        </article>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-        <!-- About Me -->
-        <section id="about" class="three">
-            <div class="container">
-
-                <header>
-                    <h2 data-aos="zoom-in-up">About Me</h2>
-                </header>
-
-                <p data-aos="fade-right">Technically-sophisticated professional with solid experience in ensuring the alignment of web design and user experience requirements for optimizing web pages to achieve maximum efficiency. Demonstrated success in determining the structure
-                    and design of web pages using HTML, CSS, and JavaScript, resolving technical errors, and achieving customer satisfaction. Expert in meeting highest standards for web design, user experience, best practices, usability, and speed. Proficient
-                    troubleshooter with strong skills in diagnosing and resolving websites issues for improving websites through creative approach to front-end development. Customer-focused with dynamic skills to achieve customers satisfaction and maintain
-                    retention by developing designs within specified budget.</p>
-                <p data-aos="fade-left">I believe anything can be overcome through commitment and hardwork. Always up for learning new things.</p>
-
-            </div>
-        </section>
-
-    </div>
-
-
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.scrolly.min.js"></script>
-    <script src="assets/js/jquery.scrollex.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-        AOS.init({
-            easing: 'ease-out-back',
-            duration: 1000
-        });
-    </script>
-
+  <!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery.scrolly.min.js"></script>
+  <script src="assets/js/jquery.scrollex.min.js"></script>
+  <script src="assets/js/breakpoints.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      easing: 'ease-out-back',
+      duration: 1000,
+    });
+  </script>
 </body>
 
 </html>
